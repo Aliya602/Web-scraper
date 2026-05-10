@@ -22,7 +22,7 @@ page_number = 1
 
 while True:
     url = f"http://quotes.toscrape.com/page/{page_number}/"
-    print(f"\nScraping page {page_number}...")
+    print(f"\n📜Scraping page {page_number}...")
     response = requests.get(url)
 
     if response.status_code == 404:
@@ -57,9 +57,9 @@ while True:
 
        
         # Print progress
-        print(f'  Quote: {quote_text[:80]}...')  # Show first 80 chars only
+        print(f'  Quote 💐: {quote_text[:80]}...')  # Show first 80 chars only
         print(f'  Author: {author}')
-        print(f'  Birthday: {birthday}')
+        print(f'  Birthday 🎂: {birthday}')
         print(f'  Tags: {", ".join(tags)}\n')
 
         
