@@ -40,7 +40,7 @@ while True:
         })
 
         # Print progress
-        print(f'  Quote: {quote_text[:80]}...')  # Show first 80 chars only
+        print(f'  Quote 💐: {quote_text[:80]}...')  # Show first 80 chars only
         print(f'  Author: {author}')
         print(f'  Tags: {", ".join(tags)}\n')
 
